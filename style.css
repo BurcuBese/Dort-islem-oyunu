@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+* {
+    font-family: 'Crimson Text', serif;
+    
+}
+body {
+    background-color:#B0B1D1;
+    color: #fff;
+    
+}
+
+#game {
+    width: 350px;
+    background: #BAC2DB;
+    padding: 18px;
+    text-align: center;
+    margin: auto;
+    margin-top: 7rem;
+    border-radius: 15px;
+    border: solid 1px #D6D4F9;
+}
+
+h1 {
+    margin: 0 0 18px 0;
+    padding: 5px;
+    font-weight: 400;
+}
+
+span {
+    font-size: 125%;
+    padding: 12px;
+}
+
+#result {
+    width: 90px;
+    
+}
+
+#answer {
+    margin-top: 20px;
+    padding: 7px;
+    border: none;
+    width: 100px;
+    background: #D9FAF3;
+    text-transform: uppercase;
+    color: #6666;
+}
+
+#answer:hover {
+    cursor: pointer;
+    transform: translateY(2px);
+}
+
+#True, #False {
+    font-size: 150%;
+    margin-top: 12px;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#True {
+    background: #6BF59F;
+    margin-right: 7px;
+}
+
+#False {
+    background: #D43B19;
+}
+
+.author {
+    display: flex;
+    justify-content: center;
+    
+}
